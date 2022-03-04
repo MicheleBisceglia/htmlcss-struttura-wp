@@ -4,8 +4,72 @@
     box-sizing: border-box;
 }
 
+body {
+    width: 1000px;
+    margin: 0 auto;   
+}
+
 .clearfix::after {
     content: "";
     display: table;
     clear: both;
+}
+
+.title {
+    background-color: violet;
+    height: 100px;
+    width: 1000px;
+    margin-top: 1%;
+}
+
+.banner {
+    background-color: orange;
+    height: 350px;
+    width: 1000px;
+    margin-top: 1%;
+}
+
+main {
+    background-color: rgb(0, 110, 255);
+    height: 450px;
+    width: 1000px;
+    margin-top: 1%;
+}
+
+#space {
+    background-color: rgb(0, 162, 255);
+    height: 50px;
+    width: 1000px;
+}
+
+#space1 {
+    float:right ;
+    background-color: rgb(0, 162, 255);
+    height: 350px;
+    width: 200px;
+    margin-top: 2%;
+}
+
+#space2 {
+    float: right;
+    background-color: rgb(0, 162, 255);
+    height: 350px;
+    width: 550px;
+    margin: 2%;
+}
+
+#space3 {
+    float: left;
+    background-color: rgb(0, 162, 255);
+    height: 350px;
+    width: 200px;
+    margin-top: 2%;
+}
+
+footer {
+    background-color: blueviolet;
+    height: 50px;
+    width: 1000px;
+    margin-top: 5px;
+
 }
